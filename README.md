@@ -6,5 +6,6 @@ Using both Session.set() and Session.get() both in Deps.autorun(function() { .. 
 
 1. Run the app.
 2. On console run the function test();
+3. Now call setZoomLevel(0.2) for setting zoom level to 0.2;
 3. Now you should actually see 0.2 on the screen but it's not working?
 4. Try setting any other zoom level by calling setZoomLevel(num) on console. It does not work.
